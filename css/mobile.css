@@ -1,43 +1,237 @@
-body {
-    background-color: #ffffff;
-    margin:0;
-    /*font-family: ;*/
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/fonts/OpenSans-Light.ttf") format("ttf");
+}
 /* -------- Header -------*/
 header{
-    height: 100vh;
-    width: 100vh;
+    height: 80vh;
+    width: 100%;
     background-image: url("../assets/images/mastehead.jpg");
-    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-/*-----------------------*/
 .box-logo {
-    height: 8%;
-    margin: 20px;
+    padding: 1%;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+}
+.box-logo img {
+    width: 8%;
+    padding: 2%;
 }
 .box-logo h1{
-    font-size: 28px;
+    font-size: 1.3em;
     color: #ffffff;
-    margin-left: 10px;
+    font-style: italic;
+    font-weight: lighter;
 }
-/*-----------------------*/
-.box-description{
-    margin-top: 45%;
-    margin-left: 5%;
+.box-description-header{
+    height: 68vh;
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 10%;
+    box-sizing: border-box;
 }
-.box-description h1{
-    font-size: 48px;
+.box-description-header h1{
+    font-size: 2.5rem;
+    line-height: 1.1em;
+    font-weight: lighter;
     color: #ffffff;
 }
-.box-description p{
-    font-size: 18px;
+.box-description-header p{
+    width: 40vw;
+    font-size: 0.6rem;
+    line-height: 1.5em;
     color: #ffffff;
+    padding-top: 5%;
 }
-/*-----------------------*/
-.box-iphone img{
-    
-}
+/*.box-iphone img*/
+
 /* ------------  Main -----------*/
 /* -- Section box-presentation --*/
+.box-presentation{
+    margin: 12%;
+    line-height: 1em;
+    font-weight: lighter;
+    color: #747474; 
+}
+.box-presentation h2{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: #747474;
+    margin-bottom: 8%;
+}
+.box-presentation p{
+    font-size: 0.7em;
+}
+.box-startmore{
+    margin-top: 5%;
+}
+.box-features {
+    margin: 8%;
+    line-height: 1em;
+    font-weight: lighter;
+    color: #ffffff; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-features h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 5%;
+}
+.box-features p {
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin: 5%;
+}
+.box-features a:link {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration:none;
+    margin: 5%;
+}
+.box-quality{ 
+    width: 100%;
+    height: 24vh;
+    background-color: #FBABAE;
+}
+.box-built {
+    width: 100%;
+    height: 24vh;
+    background-color: #747391 ;
+}
+.box-clients {
+    width: 100%;
+    height: 24vh;
+    background-color: url("../assets/images/box-bg.jpg");
+}
+.box-signup {
+    width: 100%;
+    height: 24vh;
+    background-color: url("../assets/images/box-bg-lg.jpg");
+}
+.box-pictures {
+    width: 100%;
+    height: 24vh;
+    background-color: #8FD1AE;
+}
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.link img{
+    height: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 60vh;
+    width: 100%;
+    background-color: #1F3040;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-bottom: 0;
+}
+.box-nav-footer {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.box-description {
+    margin: 5%;
+    flex-direction: column;
+}
+.box-description h4{
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-top: 5%; 
+}
+.box-description p {
+    font-size: 0.7em;
+    line-height: 1.4em;
+    color: #ffffff;
+    margin-top: 5%; 
+}
+.box-resources {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.box-resources h4 {
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+footer a:link {
+    font-size: 0.7em;
+    color: #ffffff;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.box-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.box-nav h4{
+    font-size: 0.8em;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.box-nav a:link {
+    font-size: 0.7em;
+    color: #ffffff;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.box-mail {
+
+}
+.box-mail h4 {
+    font-size: 0.8em;
+    color: #ffffff;
+    margin: 5%;
+}
+.box-mail p{
+    font-size: 0.7em;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+.box-mail form{
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 5%;
+}
+/*  #1F3040 color bouton most popular  */
