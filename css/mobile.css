@@ -58,7 +58,6 @@ header{
 /*.box-iphone img*/
 
 /* ------------  Main -----------*/
-/* -- Section box-presentation --*/
 .box-presentation{
     margin: 12%;
     line-height: 1em;
@@ -138,10 +137,30 @@ header{
     align-items: center;
     color: #ffffff;
 }
-.link img{
+.box-quality .icon-arrow{
     height: 2vh;
     margin-left: 2%;
-    color: #ffffff;
+    fill: #ffffff;
+}
+.box-built .icon-arrow{
+    height: 2vh;
+    margin-left: 2%;
+    fill: #ffffff;
+}
+.box-clients .icon-arrow{
+    height: 2vh;
+    margin-left: 2%;
+    fill: #ffffff;
+}
+.box-signup .icon-arrow{
+    height: 2vh;
+    margin-left: 2%;
+    fill: #ffffff;
+}
+.box-pictures .icon-arrow{
+    height: 2vh;
+    margin-left: 2%;
+    fill: #ffffff;
 }
 /* -- Section box-details --*/
 .box-details {
@@ -210,7 +229,6 @@ header{
     line-height: 1.5em;
     color: #747474;
 }
-/* -------- Box-options -------- */
 .box-options {
     height: 60vh;
     width: 100%;
@@ -247,11 +265,11 @@ header{
     text-decoration:none;
     color: #ffffff;
 }
-.box-options img{
+.box-options img {
     height: 2vh;
     margin-top: 5%;
     margin-left: 2%;
-    color: #ffffff;
+    fill: #ffffff;
 }
 .box-reasons {
     line-height: 1em;
@@ -260,7 +278,7 @@ header{
     padding-top: 20%;
     padding-left: 12%;
     padding-right: 12%;
-    padding-bottom: 25%;
+    padding-bottom: 20%;
 }
 .box-reasons h2 {
     font-size: 1.6rem;
@@ -409,13 +427,17 @@ footer {
 }
 .box-nav-footer {
     display: flex;
-    margin-top: 8%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
 }
 .box-description {
-    margin: 10%;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .box-description h4{
     font-size: 0.6em;
@@ -429,13 +451,10 @@ footer {
     line-height: 1.6em;
     color: #ffffff;
     margin-top: 5%; 
-    display: flex;
 }
 .box-resources {
-    display: flex;
     flex-direction: column;
     margin-top: 5%;
-    padding-right: 10%;
 }
 .box-resources h4 {
     font-size: 0.5em;
@@ -449,6 +468,7 @@ footer a:link {
     font-weight: lighter;
     color: #ffffff;
     text-decoration: none;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 5%;
@@ -459,6 +479,7 @@ footer a:link {
     margin-top: 5%;
 }
 .box-nav h4{
+    flex-direction: column;
     font-size: 0.5em;
     font-weight: lighter;
     color: #ffffff;
@@ -475,9 +496,8 @@ footer a:link {
     margin-top: 5%;
 }
 .box-mail {
-    margin-left: 10%;
-    margin-right: 10%;
     flex-direction: row;
+    margin: 10%;
 }
 .box-mail h4 {
     font-size: 0.5em;
