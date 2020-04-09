@@ -9,7 +9,7 @@ body{
     font-family: "Open Sans";
     src: url("../assets/fonts/OpenSans-Light.ttf") format("ttf");
 }
-/* -------- Header -------*/
+/* -------- Header 1-------*/
 header{
     height: 80vh;
     width: 100%;
@@ -50,14 +50,16 @@ header{
 }
 .box-description-header p{
     width: 40vw;
-    font-size: 0.6rem;
+    font-size: 0.6em;
     line-height: 1.5em;
+    font-weight: lighter;
     color: #ffffff;
     padding-top: 5%;
 }
 /*.box-iphone img*/
 
 /* ------------  Main -----------*/
+/* ------------  box-presentation 2-----------*/
 .box-presentation{
     margin: 12%;
     line-height: 1em;
@@ -68,14 +70,17 @@ header{
     font-size: 1.6rem;
     font-weight: lighter;
     color: #747474;
-    margin-bottom: 8%;
 }
-.box-presentation p{
+.box-start-1 p{
     font-size: 0.7em;
+    margin-top: 8%;
 }
-.box-startmore{
-    margin-top: 5%;
+.box-start-2 p{
+    font-size: 0.7em;
+    margin-top: 8%;
 }
+
+/* ------------  box-features 3-----------*/
 .box-features {
     margin: 8%;
     line-height: 1em;
@@ -116,6 +121,7 @@ header{
     width: 100%;
     height: 24vh;
     background-image: url("../assets/images/box-bg.jpg");
+        background-repeat: no-repeat;
 }
 .box-signup {
     width: 100%;
@@ -162,7 +168,7 @@ header{
     margin-left: 2%;
     fill: #ffffff;
 }
-/* -- Section box-details --*/
+/* ------------  box-details 4 -----------*/
 .box-details {
     margin: 12%;
 }
@@ -180,7 +186,7 @@ header{
     color: #747474;
 }
 .box-web-based p {
-    margin-top: 8%;
+
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #747474;
@@ -229,6 +235,7 @@ header{
     line-height: 1.5em;
     color: #747474;
 }
+/* ------------  box-options 5 -----------*/
 .box-options {
     height: 60vh;
     width: 100%;
@@ -271,6 +278,7 @@ header{
     margin-left: 2%;
     fill: #ffffff;
 }
+/* ------------  box-reasons 6 -----------*/
 .box-reasons {
     line-height: 1em;
     font-weight: lighter;
@@ -291,6 +299,7 @@ header{
 .box-based h3 {
     margin-top: 10%;
     font-size: 0.8rem;
+    font-weight: lighter;
     color: #ffffff;
 }
 .box-based p {
@@ -305,6 +314,7 @@ header{
 .box-login h3 {
     margin-top: 10%;
     font-size: 0.8rem;
+    font-weight: lighter;
     color: #ffffff;
 }
 .box-login p {
@@ -320,6 +330,7 @@ header{
 .box-support h3 {
     margin-top: 10%;
     font-size: 0.8rem;
+    font-weight: lighter;
     color: #ffffff;
 }
 .box-support p {
@@ -328,6 +339,7 @@ header{
     line-height: 1.5em;
     color: #ffffff;
 }
+/* ------------  box-offres 7 -----------*/
 .box-offres {
     margin: 12%;
     display: flex;
@@ -416,7 +428,7 @@ header{
     height: 4vh;
     margin-top: 5%;
 }
-/* -------- FOOTER -------- */
+/* -------- FOOTER 8-------- */
 footer {
     height: 75vh;
     width: 100%;
@@ -516,8 +528,8 @@ footer a:link {
     width: 100%;
     background-color: #ffffff;
     border: none;
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
     margin-top: 5%;
 }
 form button {
@@ -528,5 +540,5 @@ form button {
     border: none;
     color: #ffffff; 
     float:right;
-    border-top-left-radius: 5%;
+    border-top-left-radius: 4px;
 }

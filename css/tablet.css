@@ -1,0 +1,179 @@
+@media only screen and (min-device-width : 768px){
+    /* -------- Header 1-------*/
+    .box-description-header{
+        height: 58vh;
+    }
+    .box-description-header h1{
+        font-size: 4rem;
+    }
+    .box-description-header p{
+        font-size: 0.8em;
+        line-height: 1.8em;
+    }
+    /* ------------  box-presentation 2-----------*/
+    .box-presentation{
+        display:flex;
+        flex-direction: column;
+    }
+    .box-presentation h2{
+        font-size: 2.3rem;
+        line-height: 0.9em;
+    }
+    .box-start {
+        display: flex;
+        flex-direction: row;
+    }
+    .box-start-1 p{
+        width: 60%;
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin-right: 10%;
+    }
+    .box-start-2 p{
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin-top: 40%;
+    }
+    /* ------------  box-startmore 3-----------*/
+    .box-features { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* ------------  box-details 4 -----------*/
+    .box-details h2{
+        font-size: 2rem;
+        }
+    .box-details h3{
+        font-size: 1rem;
+    }
+    .box-details .box-details-full-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .box-details .box-details-full-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .box-web-based {
+        margin-top: 5%;
+    }
+    .box-perform {
+        margin-top: 5%;
+    }
+    .box-cultural {
+        margin-top: 5%;
+    }
+    .box-sustainability {
+        margin-top: 5%;
+    }
+    /* ------------  box-options 5 -----------*/
+    .box-options {
+        height: 70vh;
+    }
+    .box-options h1 {
+        font-size: 3rem;
+    }
+    .box-options p {
+        width: 40%;
+        font-size: 1rem;
+    }
+    .box-options a:link {
+        font-size: 1rem;
+    }
+    /* ------------  box-reasons 6 -----------*/
+    .box-reasons {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .box-reasons h2 {
+        font-size: 2.5rem;
+    }
+    .box-reasons .box-reasons-full {
+        display: flex;
+        flex-direction: row;
+    }
+    .box-reasons .box-reasons-full h3{
+        font-size: 1rem;
+    }
+    .box-reasons .box-reasons-full p{
+        font-size: 0.8rem;
+    }
+    /* ------------  box-offres 7 -----------*/
+    .box-offres {
+        display: flex;
+        flex-direction: row;
+    }
+    .box-offres h2{
+        font-size: 1.4rem;
+        mar
+    }
+    .box-offres p{
+        font-size: 0.8rem;
+    }
+    .box-solo .button-offre-solo {
+        margin-top: 0%;
+    }
+    .box-solo {
+        width: 65%;
+    }
+    .box-plan {
+        width: 65%;
+        margin-top: 0%;
+    }
+    .box-plan .button-offre-plan {
+        margin-top: 0%;
+    }
+    .box-plan h2 {
+        margin-top: 10%;
+    }
+    .box-solo img {
+        height: 3vh;
+        margin-top: 10%;
+    }
+    .box-plan img {
+        height: 3vh;
+        margin-top: 10%;
+    }
+    /* -------- FOOTER 8-------- */
+    footer {
+        height: 58vh;
+    }
+    .box-description h4{
+        font-size: 0.8em;
+        margin-top: 0%;
+    }
+    .box-description p{
+        font-size: 0.7em;
+        margin-top: 2%;
+    }
+    .box-mail {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .box-mail p{
+        font-size: 0.7em;
+        text-align: left;
+    }
+    .box-nav-footer {
+        display: flex;
+        margin-top: 0%;
+    }
+    .box-resources {
+        margin-top: 0%;
+    }
+    .box-nav {
+        margin-top: 0%;
+    }
+    .box-nav-footer h4{
+        font-size: 0.7em;
+    }
+    .box-nav-footer a:link{
+        font-size: 0.7em;
+    }
+
+
+
+
+
+}
