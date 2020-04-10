@@ -22,7 +22,7 @@
     }
     .box-start {
         display: flex;
-        flex-direction: row;s
+        flex-direction: row;
     }
     .box-start-1 {
         width: 50%;
@@ -32,8 +32,8 @@
     }
     .box-start-1 p {
         font-size: 0.8em;
-        margin:0 %;
-        padding-right 5%;
+        margin:0;
+        padding-right: 5%;
     }
     .box-start-2 p {
         font-size: 0.8em;
