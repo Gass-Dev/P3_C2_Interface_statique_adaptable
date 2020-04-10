@@ -1,4 +1,4 @@
-@media (min-width: 1281px) {
+@media only screen and (min-device-width: 1281px) {
     /* -------- Header 1-------*/
     .box-logo img {
         width: 4%;
@@ -7,22 +7,22 @@
     .box-logo h1{
         font-size: 1.6em;
     }
-    .box-description-header{
+    .box-description-header {
         height: 50vh;
         margin-left: 10%;
         margin-right: 10%;
     }
-    .box-description-header h1{
+    .box-description-header h1 {
         font-size: 3rem;
     }
-    .box-description-header p{
+    .box-description-header p {
         font-size: 1em;
         width: 45%;
     }
     /*.box-iphone img*/
 
     /* ------------  Main -----------*/
-    /* ------------  box-presentation 2-----------*/
+    /* ------------  box-presentation 2 -----------*/
     .box-presentation {
         margin-top: 10%;
         margin-left: 20%;
@@ -35,12 +35,12 @@
     .box-start-1 {
         width: 50%;
     }
-    .box-start-2{
+    .box-start-2 {
         width: 80%;
     }
     .box-start-1 p {
         font-size: 1em;
-        margin:0;
+        margin: 0;
     }
     .box-start-2 p {
         font-size: 1em;
