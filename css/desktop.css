@@ -27,7 +27,7 @@
         margin-top: 10%;
         margin-left: 20%;
         margin-right: 20%;
-        height: 20vh;
+        height: 35vh;
     }
     .box-presentation h2 {
         font-size: 2.5rem;
@@ -40,7 +40,7 @@
     }
     .box-start-1 p {
         font-size: 1em;
-        margin: 0;
+        margin-top: 10%;
     }
     .box-start-2 p {
         font-size: 1em;
@@ -72,7 +72,7 @@
     }
     /* ------------  box-details 4 -----------*/
     .box-details {
-        margin-top: 8%;
+        margin-top: 6%;
         margin-bottom: 8%;
         margin-left: 20%;
         margin-right: 20%;
@@ -85,54 +85,55 @@
         flex-direction: row;
     }
     .box-web-based {
-        margin-right: 10%;
+        margin-right: 5%;
     }
     .box-web-based h3 {
         font-size: 1rem;
     }
     .box-web-based p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     .box-perform {
         margin-top: 5%;
-        margin-right: 10%;
+        margin-right: 5%;
     }
     .box-perform h3 {
         font-size: 1rem;
         margin-top: 8%;
     }
     .box-perform p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     .box-cultural {
         margin-top: 5%;
-        margin-right: 10%;
+        margin-right: 5%;
     }
     .box-cultural h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     .box-cultural p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     .box-sustainability {
         margin-top: 5%;
-        margin-right: 10%;
+        margin-right: 5%;
     }
     .box-sustainability h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     .box-sustainability p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-top: 8%;
     }
     /* ------------  box-options 5 -----------*/
     .box-options {
-        height: 72vh;
+        height: 60vh;
+        margin-top: 0;
     }
     .box-options h1 {
         width: 60vh;
@@ -163,9 +164,11 @@
     }
     .box-based {
         margin-top: 5%;
+        margin-right:5%;
     }
     .box-login {
         margin-top: 5%;
+        margin-right:5%;
     }
     .box-support {
         margin-top: 5%;
@@ -255,6 +258,7 @@
         justify-content: flex-start;
         margin-left: 20%;
         margin-right: 20%;
+        margin-top: 0;
     }
     .box-nav-footer h4 {
         font-size: 0.8rem;
