@@ -27,15 +27,16 @@
         margin-top: 10%;
         margin-left: 20%;
         margin-right: 20%;
+        height: 20vh;
     }
     .box-presentation h2 {
         font-size: 2.5rem;
     }
     .box-start-1 {
-        width: 150%;
+        width: 50%;
     }
     .box-start-2{
-        width: 100%;
+        width: 80%%;
     }
     .box-start-1 p {
         font-size: 1em;
@@ -43,7 +44,7 @@
     }
     .box-start-2 p {
         font-size: 1em;
-        margin-top: 50%;
+        margin-top: 25%;
     }
     /* ------------  box-features 3-----------*/
     .box-features {
@@ -51,10 +52,24 @@
         margin-right: 20%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
-
-
+    .box-quality {
+        width: 33%;
+    }
+    .box-built {
+        width: 33%;
+    }
+    .box-clients {
+        width: 33%;
+    }
+    .box-signup {
+        width: 66%;
+    }
+    .box-pictures {
+        width: 33%;
+    }
     /* ------------  box-details 4 -----------*/
     .box-details {
         margin-top: 8%;
@@ -215,12 +230,18 @@
     }
     /* -------- FOOTER 8-------- */
     footer {
-        height: 65vh;
+        height: 55vh;
+    }
+    .footer-niveau1 {
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
     }
     .box-description {
         margin-top: 5%;
         margin-left: 20%;
-        margin-right: 20%;
+        margin-right: 5%;
+        width: 50%;
     }
     .box-description h4{
         font-size: 0.8em;
@@ -228,56 +249,20 @@
     .box-description p {
         font-size: 0.7em;
         line-height: 1.2rem;
-        width: 45%; 
     }
-    /*.box-resources {
-    flex-direction: column;
-    margin-top: 5%;
-    }
-    .box-resources h4 {
-    font-size: 0.5em;
-    font-weight: lighter;
-    color: #ffffff;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    }
-    footer a:link {
-    font-size: 0.5em;
-    font-weight: lighter;
-    color: #ffffff;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%;
-    }
-    .box-nav {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    }
-    .box-nav h4{
-    flex-direction: column;
-    font-size: 0.5em;
-    font-weight: lighter;
-    color: #ffffff;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    }
-    .box-nav a:link {
-    font-size: 0.5em;
-    font-weight: lighter;
-    color: #ffffff;
-    text-decoration: none;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%;
-    }*/
     .box-nav-footer {
-        
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .box-nav-footer h4 {
+        font-size: 0.8rem;
     }
     .box-mail {
-
+        margin-left: 5%;
+        margin-right: 20%;
+        width: 50%;
     }
     .box-mail h4 {
         font-size: 0.8em;
@@ -288,11 +273,17 @@
         font-size: 0.6rem;
     }
     .box-mail form{
-        width: 45%;
+        width: 100%;
         background-color: #ffffff;
         height: 4vh;
     }
     form button {
-        width: 10%;
+        width: 16.65%;
+    }
+    .box-resources {
+        width: 12%;
+    }
+    .box-nav {
+        width: 12%;
     }
 }
