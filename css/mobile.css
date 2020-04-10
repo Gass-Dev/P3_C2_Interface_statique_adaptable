@@ -442,6 +442,7 @@ footer {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 10%;
     justify-content: space-between;
 }
 .box-description {
@@ -542,7 +543,7 @@ footer a:link {
 }
 form button {
     height: 4.5vh;
-    width: 15%;
+    width: 16.5%;
     background-color: #8FD1AE;
     font-size: 0.8rem;
     border: none;

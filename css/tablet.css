@@ -26,6 +26,7 @@
     }
     .box-start-1 {
         width: 50%;
+        margin-top: 8%;
     }
     .box-start-2{
         width: 50%;
@@ -221,8 +222,9 @@
     .box-nav-footer a:link{
         font-size: 0.7em;
     }
-        .box-mail form{
+    .box-mail form{
         width: 100%;
         background-color: #ffffff;
+        height: 4.5vh;
     }
 }
