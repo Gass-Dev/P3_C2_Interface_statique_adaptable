@@ -1,5 +1,298 @@
 @media (min-width: 1281px) {
-  
-  
-  
+    /* -------- Header 1-------*/
+    .box-logo img {
+        width: 4%;
+        padding: 1%;
+    }
+    .box-logo h1{
+        font-size: 1.6em;
+    }
+    .box-description-header{
+        height: 50vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .box-description-header h1{
+        font-size: 3rem;
+    }
+    .box-description-header p{
+        font-size: 1em;
+        width: 45%;
+    }
+    /*.box-iphone img*/
+
+    /* ------------  Main -----------*/
+    /* ------------  box-presentation 2-----------*/
+    .box-presentation {
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .box-presentation h2 {
+        font-size: 2.5rem;
+    }
+    .box-start-1 {
+        width: 150%;
+    }
+    .box-start-2{
+        width: 100%;
+    }
+    .box-start-1 p {
+        font-size: 1em;
+        margin:0 %;
+    }
+    .box-start-2 p {
+        font-size: 1em;
+        margin-top: 50%;
+    }
+    /* ------------  box-features 3-----------*/
+    .box-features {
+        margin-left: 20%;
+        margin-right: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    /* ------------  box-details 4 -----------*/
+    .box-details {
+        margin-top: 8%;
+        margin-bottom: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .box-details h2 {
+        font-size: 2.5rem;
+    }
+    .box-details-desktop-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .box-web-based {
+        margin-right: 10%;
+    }
+    .box-web-based h3 {
+        font-size: 1rem;
+    }
+    .box-web-based p {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-perform {
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .box-perform h3 {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-perform p {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-cultural {
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .box-cultural h3 {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-cultural p {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-sustainability {
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .box-sustainability h3 {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    .box-sustainability p {
+        font-size: 1rem;
+        margin-top: 8%;
+    }
+    /* ------------  box-options 5 -----------*/
+    .box-options {
+        height: 72vh;
+    }
+    .box-options h1 {
+        width: 60vh;
+        font-size: 3.5rem;
+        padding-top: 24%;
+        padding-left: 20%;
+    }
+    .box-options p {
+        font-size: 1rem;
+        padding-top: 2%;
+        padding-left: 20%;
+    }
+    .box-options a:link {
+        margin-top: 2%;
+        margin-left: 20%;
+        font-size: 1rem;
+    }
+    .box-options img {
+        height: 1.8vh;
+        margin-top: 2%;
+    }
+    /* ------------  box-reasons 6 -----------*/
+    .box-reasons {
+        padding-top: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10%;
+    }
+    .box-based {
+        margin-top: 5%;
+    }
+    .box-login {
+        margin-top: 5%;
+    }
+    .box-support {
+        margin-top: 5%;
+    }
+    .box-reasons h2 {
+        font-size: 2.5rem;
+    }
+    /* ------------  box-offres 7 -----------*/
+    .box-offres {
+        margin-top: 8%;
+        margin-bottom:8%;
+        margin-left: 20%;
+        margin-right:20%;
+    }
+    .box-solo{
+        background-color: #ffffff;
+        border: solid;
+        border-color: #ffffff;
+        width: 65%;
+        height: 25vh; 
+        padding: 2%;
+    }
+    .box-plan {
+        background-color: #ffffff;
+        border : solid;
+        border-color: #C2C2CC;
+        width: 65%;
+        height: 26vh;
+        padding:2%
+    }
+    .box-offres p{
+        line-height: 1.3rem;
+        width: 98%;
+    }
+    .box-solo .button-offre-solo {
+        height: 3vh;
+        width: 12%;
+    }
+    .box-plan .button-offre-plan {
+        width: 18%;
+    }
+    .box-solo .button-buy-solo {
+        width: 18%;
+    }
+    .box-plan .button-buy-plan {
+        width: 18%;
+        margin-top: 5%;
+    }
+    .box-plan h2 {
+        margin-top: 10%;
+    }
+    .box-plan img {
+        height: 3vh;
+        margin-top: 10%;
+    }
+    .box-solo img {
+        margin-top: 3%;
+    }
+    .box-plan img {
+        margin-top: 3%;
+
+    }
+    /* -------- FOOTER 8-------- */
+    footer {
+        height: 65vh;
+    }
+    .box-description {
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .box-description h4{
+        font-size: 0.8em;
+    }
+    .box-description p {
+        font-size: 0.7em;
+        line-height: 1.2rem;
+        width: 45%; 
+    }
+    /*.box-resources {
+    flex-direction: column;
+    margin-top: 5%;
+    }
+    .box-resources h4 {
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    }
+    footer a:link {
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+    }
+    .box-nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    }
+    .box-nav h4{
+    flex-direction: column;
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    }
+    .box-nav a:link {
+    font-size: 0.5em;
+    font-weight: lighter;
+    color: #ffffff;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+    }*/
+    .box-nav-footer {
+        
+    }
+    .box-mail {
+
+    }
+    .box-mail h4 {
+        font-size: 0.8em;
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+    .box-mail p{
+        font-size: 0.6rem;
+    }
+    .box-mail form{
+        width: 45%;
+        background-color: #ffffff;
+        height: 4vh;
+    }
+    form button {
+        width: 10%;
+    }
 }
