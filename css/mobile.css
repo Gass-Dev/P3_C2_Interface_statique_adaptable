@@ -50,7 +50,7 @@ header {
     box-sizing: border-box;
 }
 
-.box-description-header h1 {
+.box-description-header h2 {
     font-size: 2.5rem;
     line-height: 1.1em;
     font-weight: lighter;
@@ -77,7 +77,7 @@ header {
     color: #747474;
 }
 
-.box-presentation h2 {
+.box-presentation h3 {
     font-size: 1.6rem;
     font-weight: lighter;
     color: #747474;

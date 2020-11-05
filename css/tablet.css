@@ -84,7 +84,7 @@
     .box-web-based {
         margin-top: 5%;
     }
-     .box-web-based p{
+    .box-web-based p{
         margin-top: 5%;
         width: 80%;
     }
@@ -115,7 +115,7 @@
         height: 70vh;
         margin-top: 20%;
     }
-    .box-options h1 {
+    .box-options h2 {
         width: 30%;
         font-size: 3rem;
         padding-top: 15%;
@@ -132,7 +132,7 @@
         padding-top: 15%;
         padding-bottom: 15%;
     }
-    .box-reasons h2 {
+    .box-reasons h3 {
         font-size: 2.5rem;
     }
     .box-reasons .box-reasons-full {
