@@ -2,15 +2,18 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
+
 @font-face {
     font-family: "Open Sans";
     src: url("../assets/fonts/OpenSans-Light.ttf") format("ttf");
 }
+
 /* -------- Header 1-------*/
-header{
+header {
     height: 80vh;
     width: 100%;
     background-image: url("../assets/images/mastehead.jpg");
@@ -18,22 +21,26 @@ header{
     background-position: center;
     background-size: cover;
 }
+
 .box-logo {
     padding: 1%;
     display: flex;
     align-items: center;
 }
+
 .box-logo img {
     width: 8%;
     padding: 2%;
 }
-.box-logo h1{
+
+.box-logo h1 {
     font-size: 1.3em;
     color: #ffffff;
     font-style: italic;
     font-weight: lighter;
 }
-.box-description-header{
+
+.box-description-header {
     height: 68vh;
     display: flex;
     color: #ffffff;
@@ -42,13 +49,15 @@ header{
     padding: 10%;
     box-sizing: border-box;
 }
-.box-description-header h1{
+
+.box-description-header h1 {
     font-size: 2.5rem;
     line-height: 1.1em;
     font-weight: lighter;
     color: #ffffff;
 }
-.box-description-header p{
+
+.box-description-header p {
     width: 40vw;
     font-size: 0.6em;
     line-height: 1.5em;
@@ -56,26 +65,30 @@ header{
     color: #ffffff;
     padding-top: 5%;
 }
+
 /*.box-iphone img*/
 
 /* ------------  Main -----------*/
 /* ------------  box-presentation 2-----------*/
-.box-presentation{
+.box-presentation {
     margin: 12%;
     line-height: 1em;
     font-weight: lighter;
-    color: #747474; 
+    color: #747474;
 }
-.box-presentation h2{
+
+.box-presentation h2 {
     font-size: 1.6rem;
     font-weight: lighter;
     color: #747474;
 }
-.box-start-1 p{
+
+.box-start-1 p {
     font-size: 1em;
     margin-top: 8%;
 }
-.box-start-2 p{
+
+.box-start-2 p {
     font-size: 1em;
     margin-top: 8%;
 }
@@ -85,45 +98,52 @@ header{
     margin: 8%;
     line-height: 1em;
     font-weight: lighter;
-    color: #ffffff; 
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .box-features h2 {
     font-size: 1.2em;
     font-weight: bold;
     margin: 8%;
 }
+
 .box-features p {
     font-size: 0.7em;
     font-weight: lighter;
     margin: 8%;
 }
+
 .box-features a:link {
     font-size: 0.8em;
     font-weight: bold;
     color: #ffffff;
-    text-decoration:none;
+    text-decoration: none;
     margin-left: 8%;
 }
-.box-quality{ 
-    width: 100%;
+
+.box-quality {
+    width: 100vw;
     height: 20vh;
     background-color: #FBABAE;
 }
+
 .box-built {
     width: 100%;
     height: 20vh;
     background-color: #747391;
 }
+
 .box-clients {
     width: 100%;
     height: 20vh;
     background-image: url("../assets/images/box-bg.jpg");
     background-repeat: no-repeat;
-        background-size: cover;
+    background-size: cover;
 }
+
 .box-signup {
     width: 100%;
     height: 20vh;
@@ -132,11 +152,13 @@ header{
     background-position: center;
     background-size: cover;
 }
+
 .box-pictures {
     width: 100%;
     height: 20vh;
     background-color: #8FD1AE;
 }
+
 .link {
     display: flex;
     flex-direction: row;
@@ -144,98 +166,118 @@ header{
     align-items: center;
     color: #ffffff;
 }
-.box-quality .icon-arrow{
+
+.box-quality .icon-arrow {
     height: 2vh;
     margin-left: 2%;
     fill: #ffffff;
 }
-.box-built .icon-arrow{
+
+.box-built .icon-arrow {
     height: 2vh;
     margin-left: 2%;
     fill: #ffffff;
 }
-.box-clients .icon-arrow{
+
+.box-clients .icon-arrow {
     height: 2vh;
     margin-left: 2%;
     fill: #ffffff;
 }
-.box-signup .icon-arrow{
+
+.box-signup .icon-arrow {
     height: 2vh;
     margin-left: 2%;
     fill: #ffffff;
 }
-.box-pictures .icon-arrow{
+
+.box-pictures .icon-arrow {
     height: 2vh;
     margin-left: 2%;
     fill: #ffffff;
 }
+
 /* ------------  box-details 4 -----------*/
 .box-details {
     margin: 12%;
 }
+
 .box-details h2 {
     font-size: 1.6rem;
     font-weight: lighter;
     color: #747474;
 }
+
 .box-web-based {
     margin-top: 12%;
 }
+
 .box-web-based h3 {
     margin-top: 10%;
     font-size: 0.8rem;
     color: #747474;
 }
+
 .box-web-based p {
 
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #747474;
 }
+
 .box-perform {
     margin-top: 10%;
 }
+
 .box-perform h3 {
     margin-top: 10%;
     font-size: 0.8rem;
     color: #747474;
 }
+
 .box-perform p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #747474;
 }
+
 .box-cultural {
     margin-top: 10%;
 }
+
 .box-cultural h3 {
     margin-top: 10%;
     margin-top: 10%;
     font-size: 0.8rem;
     color: #747474;
 }
+
 .box-cultural p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #747474;
 }
+
 .box-sustainability {
     margin-top: 10%;
 }
+
 .box-sustainability h3 {
     margin-top: 10%;
     margin-top: 10%;
     font-size: 0.8rem;
     color: #747474;
 }
+
 .box-sustainability p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #747474;
 }
+
 /* ------------  box-options 5 -----------*/
 .box-options {
     height: 50vh;
@@ -245,6 +287,7 @@ header{
     background-position: left;
     background-size: cover;
 }
+
 .box-options h1 {
     width: 22vh;
     font-size: 2rem;
@@ -253,6 +296,7 @@ header{
     padding-top: 30%;
     padding-left: 10%;
 }
+
 .box-options p {
     font-size: 0.6rem;
     line-height: 1.6em;
@@ -262,6 +306,7 @@ header{
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .box-options a:link {
     display: flex;
     flex-direction: row;
@@ -270,15 +315,17 @@ header{
     margin-top: 5%;
     margin-left: 10%;
     font-size: 0.8rem;
-    text-decoration:none;
+    text-decoration: none;
     color: #ffffff;
 }
+
 .box-options img {
     height: 2vh;
     margin-top: 5%;
     margin-left: 2%;
     fill: #ffffff;
 }
+
 /* ------------  box-reasons 6 -----------*/
 .box-reasons {
     line-height: 1em;
@@ -289,67 +336,80 @@ header{
     padding-right: 12%;
     padding-bottom: 20%;
 }
+
 .box-reasons h2 {
     font-size: 1.6rem;
     font-weight: lighter;
     color: #ffffff;
 }
+
 .box-based {
     margin-top: 12%;
 }
+
 .box-based h3 {
     margin-top: 10%;
     font-size: 0.8rem;
     font-weight: lighter;
     color: #ffffff;
 }
+
 .box-based p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #ffffff;
 }
+
 .box-login {
     margin-top: 12%;
 }
+
 .box-login h3 {
     margin-top: 10%;
     font-size: 0.8rem;
     font-weight: lighter;
     color: #ffffff;
 }
+
 .box-login p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #ffffff;
 }
+
 .box-support {
     margin-top: 12%;
     margin-bottom: 12%;
 }
+
 .box-support h3 {
     margin-top: 10%;
     font-size: 0.8rem;
     font-weight: lighter;
     color: #ffffff;
 }
+
 .box-support p {
     margin-top: 8%;
     font-size: 0.6rem;
     line-height: 1.5em;
     color: #ffffff;
 }
+
 /* ------------  box-offres 7 -----------*/
 .box-offres {
     margin: 12%;
     display: flex;
     flex-direction: column;
 }
+
 .box-solo {
     display: flex;
     flex-direction: column;
 }
+
 .box-solo .button-offre-solo {
     height: 3vh;
     width: 20%;
@@ -360,22 +420,25 @@ header{
     color: #ffffff;
     margin-top: 5%;
 }
+
 .box-solo .button-buy-solo {
     height: 3vh;
     width: 30%;
     border: none;
     border-radius: 3px;
-    background-color: #8FD1AE; 
+    background-color: #8FD1AE;
     font-size: 0.6rem;
     color: #ffffff;
     margin-top: 5%;
 }
+
 .box-solo h2 {
     font-size: 1.3rem;
     font-weight: lighter;
     color: #747474;
     margin-top: 10%;
 }
+
 .box-solo p {
     font-size: 0.6rem;
     font-weight: lighter;
@@ -383,41 +446,47 @@ header{
     color: #747474;
     margin-top: 5%;
 }
+
 .box-solo img {
     height: 4vh;
     margin-top: 5%;
 }
+
 .box-plan {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
 }
+
 .box-plan .button-offre-plan {
     height: 3vh;
     width: 30%;
     border: none;
     border-radius: 3px;
-    background-color: #CC99CC; 
+    background-color: #CC99CC;
     font-size: 0.6rem;
     color: #ffffff;
     margin-top: 10%;
 }
+
 .box-plan .button-buy-plan {
     height: 3vh;
     width: 30%;
     border: none;
     border-radius: 3px;
-    background-color: #8FD1AE; 
+    background-color: #8FD1AE;
     font-size: 0.6rem;
     color: #ffffff;
     margin-top: 10%;
 }
+
 .box-plan h2 {
     font-size: 1.3rem;
     font-weight: lighter;
     color: #747474;
     margin-top: 5%;
 }
+
 .box-plan p {
     font-size: 0.6rem;
     font-weight: lighter;
@@ -425,10 +494,12 @@ header{
     color: #747474;
     margin-top: 5%;
 }
+
 .box-plan img {
     height: 4vh;
     margin-top: 5%;
 }
+
 /* -------- FOOTER 8-------- */
 footer {
     height: 50vh;
@@ -438,6 +509,7 @@ footer {
     flex-direction: column;
     margin-bottom: 0;
 }
+
 .box-nav-footer {
     display: flex;
     margin-left: 10%;
@@ -445,6 +517,7 @@ footer {
     margin-top: 10%;
     justify-content: space-between;
 }
+
 .box-description {
     display: flex;
     flex-direction: column;
@@ -452,23 +525,27 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
 }
-.box-description h4{
+
+.box-description h4 {
     font-size: 0.6em;
     font-weight: lighter;
     color: #ffffff;
-    margin-top: 5%; 
+    margin-top: 5%;
 }
+
 .box-description p {
     font-size: 0.5em;
     font-weight: lighter;
     line-height: 1.6em;
     color: #ffffff;
-    margin-top: 5%; 
+    margin-top: 5%;
 }
+
 .box-resources {
     flex-direction: column;
     margin-top: 5%;
 }
+
 .box-resources h4 {
     font-size: 0.5em;
     font-weight: lighter;
@@ -476,6 +553,7 @@ footer {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
 footer a:link {
     font-size: 0.5em;
     font-weight: lighter;
@@ -486,12 +564,14 @@ footer a:link {
     align-items: flex-start;
     margin-top: 5%;
 }
+
 .box-nav {
     display: flex;
     flex-direction: column;
     margin-top: 5%;
 }
-.box-nav h4{
+
+.box-nav h4 {
     flex-direction: column;
     font-size: 0.5em;
     font-weight: lighter;
@@ -499,6 +579,7 @@ footer a:link {
     margin-top: 5%;
     margin-bottom: 10%;
 }
+
 .box-nav a:link {
     font-size: 0.5em;
     font-weight: lighter;
@@ -508,27 +589,32 @@ footer a:link {
     align-items: flex-start;
     margin-top: 5%;
 }
+
 .footer-niveau1 {
     height: 25vh;
 }
+
 .box-mail {
     flex-direction: row;
     margin: 10%;
 }
+
 .box-mail h4 {
     font-size: 0.5em;
     font-weight: lighter;
     color: #ffffff;
     margin-bottom: 5%;
 }
-.box-mail p{
+
+.box-mail p {
     font-size: 0.48rem;
     font-weight: lighter;
     color: #747474;
     margin-top: 2%;
     text-align: left;
 }
-.box-mail form{
+
+.box-mail form {
     height: 4vh;
     width: 100%;
     background-color: #ffffff;
@@ -536,18 +622,20 @@ footer a:link {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
-.box-mail input{
+
+.box-mail input {
     height: 4vh;
     width: 82%;
     background-color: #ffffff;
 }
+
 form button {
     height: 4.5vh;
     width: 16.5%;
     background-color: #8FD1AE;
     font-size: 0.8rem;
     border: none;
-    color: #ffffff; 
-    float:right;
+    color: #ffffff;
+    float: right;
     border-top-left-radius: 4px;
 }
